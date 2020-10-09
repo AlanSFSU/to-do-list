@@ -27,5 +27,15 @@ h1{
   width:50%;
   text-align: center;
   margin: 1rem 25% 25% 25%;
-  padding: 1rem 0 10% 0;
+  padding-bottom: 2rem;
+}
+
+input{
+  margin-left: 1rem;
+}
+
+#sub{
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
 }
