@@ -1,0 +1,31 @@
+/* global changes to be consistent across browsers */
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+html
+{
+    height:100%;
+}
+
+body
+{
+    font-family: "Times New Roman", Times, serif;
+    min-height: 100%;
+    background: #e3e3e3;
+}
+
+h1{
+  text-align: center;
+}
+
+#tdBox{
+  border-radius: 10px;
+  border-style: solid;
+  width:50%;
+  text-align: center;
+  margin: 1rem 25% 25% 25%;
+  padding: 1rem 0 10% 0;
+}
