@@ -11,10 +11,14 @@
 </head>
 <body>
   <h1>To do List</h1>
-  <div id="tdBox">
-    <p>Enter your to do list here</p>
-    What would you like to do?<input type="text"></input>
-    <input id="sub" type="submit"></input>
+  <div id="tdBox" class="header">
+      <p>What would you like to do?</p>
+      <input type="text" id="newInput" required></input>
+      <span onclick="newElement()" class="addBtn">Add</span>
   </div>
+
+  <ul id="list">
+  </ul>
+  <script src="static/index.js"></script>
 </body>
 </html>

@@ -21,12 +21,17 @@ h1{
   text-align: center;
 }
 
+p{
+  margin-top: 1rem;
+
+}
+
 #tdBox{
   border-radius: 10px;
   border-style: solid;
   width:50%;
   text-align: center;
-  margin: 1rem 25% 25% 25%;
+  margin: 1rem 25% 0% 25%;
   padding-bottom: 2rem;
 }
 
@@ -35,7 +40,22 @@ input{
 }
 
 #sub{
-  display: block;
   margin: auto;
   margin-top: 1rem;
+}
+
+#list{
+  text-align: center;
+}
+
+.addBtn{
+  padding:10px;
+  width:20%;
+  background: #d9d9d9;
+  color:#555;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
 }
